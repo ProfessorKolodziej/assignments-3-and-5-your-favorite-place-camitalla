@@ -9,3 +9,41 @@
 		color: red;
 	}
 }
+
+/* Fonts*/
+body {
+	font-family: "Vollkorn", serif;
+}
+
+h1 {
+	font-family: "Vollkorn", serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+h2 {
+font-family: "Vollkorn", serif;
+font-weight: 500;
+font-style: italic;
+}
+
+h3 {
+	font-family: "Vollkorn", serif;
+	font-weight: 400;
+}
+
+ul {
+	font-family: "Quattrocento Sans", sans-serif;
+}
+
+p {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* Black BG*/
+.Top-Attractions {
+	background-color: #1E1E1E;
+	color: white;
+	margin: 0;
+	width: 100%;
+}
