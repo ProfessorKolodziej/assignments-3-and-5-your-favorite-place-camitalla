@@ -40,6 +40,11 @@ p {
 	font-family: 'Quattrocento Sans', sans-serif;
 }
 
+/* I asked ChatGPT how to change the link color */
+a {
+	color: aqua;
+}
+
 /* Black BG*/
 .Top-Attractions {
 	background-color: #1E1E1E;
