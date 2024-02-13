@@ -23,12 +23,14 @@ h1 {
 
 h2 {
 font-family: "Vollkorn", serif;
+font-size: 42px;
 font-weight: 500;
 font-style: italic;
 }
 
 h3 {
 	font-family: "Vollkorn", serif;
+	font-size: 30px;
 	font-weight: 400;
 }
 
@@ -40,10 +42,53 @@ p {
 	font-family: 'Quattrocento Sans', sans-serif;
 }
 
-/* I asked ChatGPT how to change the link color */
 a {
 	color: aqua;
 }
+
+.image-item {
+	position: relative;
+ }
+
+ .image-item .image-number {
+	position: absolute;
+	top: 1px; /* Adjust as necessary */
+	left: 20px; /* Adjust as necessary */
+	font-size: 40px; /* Adjust as necessary */
+	font-weight: bold; /* Optional: if you want the number to be bold */
+	/* Add other styles such as font-family, etc., as needed */
+ }
+
+ .image-item h3 {
+	position: absolute;
+	top: -20px;
+	bottom: 0px; /* Adjust as necessary */
+	left: 40px; /* Adjust as necessary */
+	/* Add other styles such as font-family, etc., as needed */
+ }
+
+.button {
+	font-family: "Quattrocento Sans", sans-serif;
+	background-color: #ffffff;
+	border: none;
+	color: rgb(0, 0, 0);
+	padding: 3px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 2px 2px;
+	border-radius: 40px;
+ }
+
+ .button-container {
+  	display: flex; /* Use flexbox */
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 70px
+ }
 
 /* Black BG*/
 .Top-Attractions {
@@ -51,4 +96,7 @@ a {
 	color: white;
 	margin: 0;
 	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 10px;
+
 }
