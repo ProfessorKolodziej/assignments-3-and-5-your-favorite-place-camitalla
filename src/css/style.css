@@ -1,45 +1,47 @@
 @media screen and (width >= 320px) {
+	.page-title {
+		font-size: 48px;
+	}
+}
+
+@media screen and (width >= 834px) {
 	#some-id {
 		color: red;
 	}
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
-}
 
 /* Fonts*/
 body {
-	font-family: "Vollkorn", serif;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 h1 {
 	font-family: "Vollkorn", serif;
+	font-size: 22px;
 	font-weight: 600;
 	font-style: italic;
 }
 
 h2 {
 font-family: "Vollkorn", serif;
-font-size: 42px;
+font-size: 20px;
 font-weight: 500;
 font-style: italic;
 }
 
 h3 {
 	font-family: "Vollkorn", serif;
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: 400;
 }
 
-ul {
-	font-family: "Quattrocento Sans", sans-serif;
+p {
+	font-size: 11px;
 }
 
-p {
-	font-family: 'Quattrocento Sans', sans-serif;
+ol {
+	list-style-type: none;
 }
 
 a {
@@ -50,39 +52,41 @@ a {
 	position: relative;
  }
 
+ 	/* Got help from ChatGPT on how to make the numbers large */
  .image-item .image-number {
+	font-family: "Vollkorn", serif;
 	position: absolute;
-	top: 1px; /* Adjust as necessary */
-	left: 20px; /* Adjust as necessary */
-	font-size: 40px; /* Adjust as necessary */
-	font-weight: bold; /* Optional: if you want the number to be bold */
-	/* Add other styles such as font-family, etc., as needed */
+	top: 1px;
+	left: 20px;
+	font-size: 40px;
+	font-weight: bold;
  }
 
+ /* Got help from ChatGPT on how to position the text */
  .image-item h3 {
 	position: absolute;
 	top: -20px;
-	bottom: 0px; /* Adjust as necessary */
-	left: 40px; /* Adjust as necessary */
-	/* Add other styles such as font-family, etc., as needed */
+	bottom: 0px;
+	left: 40px;
  }
 
 .button {
 	font-family: "Quattrocento Sans", sans-serif;
+	font-size: 12px;
 	background-color: #ffffff;
 	border: none;
 	color: rgb(0, 0, 0);
-	padding: 3px 12px;
+	padding: 2px 5px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 20px;
 	margin: 2px 2px;
 	border-radius: 40px;
  }
 
+ /* Got help from ChatGPT on how to make a button */
  .button-container {
-  	display: flex; /* Use flexbox */
+  	display: flex;
   	justify-content: center;
   	align-items: center;
   	text-align: center;
