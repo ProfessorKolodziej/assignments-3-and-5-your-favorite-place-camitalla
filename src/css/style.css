@@ -1,12 +1,12 @@
-@media screen and (width >= 320px) {
+@media screen and (width >= 834px) {
 	.page-title {
 		font-size: 48px;
 	}
 }
 
-@media screen and (width >= 834px) {
-	#some-id {
-		color: red;
+@media screen and (width >= 1000px) {
+	.pagetitle {
+		font-size: 64px;
 	}
 }
 
